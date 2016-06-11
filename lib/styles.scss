@@ -11,18 +11,15 @@ body {
 
 header {
   height: 75px;
-  background: yellow;
-
 
   h1 {
     text-indent: -9999px;
-    background: ("images/plant-icon.png") no-repeat;
+    background: url('./images/plantIcon.png') no-repeat;
     background-size: 45px;
     float: left;
     width: 45px;
     height: 45px;
     margin-top: 14px;
-    outline: 2px solid red;
   }
 
   nav {
@@ -54,7 +51,7 @@ header {
   }
 
   section, aside {
-    vertical-align: middle;
+    vertical-align: top;
     min-height: 120px;
     display: inline-block;
   }
@@ -67,6 +64,27 @@ header {
 
   aside {
     width: 70%;
+  }
+
+  img {
+    width: 112%;
+  }
+}
+
+// plant show
+
+.plant {
+  text-align: center;
+  h1 {
+    font-size: 20px;
+  }
+
+  .plant-image {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    overflow: hidden;
+    border-radius: 15px;
   }
 
   img {
