@@ -1,7 +1,6 @@
 module.exports = {
-  devtool: 'source-map',
   entry: {
-    main: './lib/index.js',
+    main: ['babel-polyfill', './lib/index.js'],
   },
   output: {
     path: __dirname,
